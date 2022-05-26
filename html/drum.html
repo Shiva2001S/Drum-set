@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Drum-kit/css/drum.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="first" class="drum A">
+           A
+            <img class="myimg" src="/Drum-kit/images/crash.png" alt="">
+        </div>
+        <div id="second" class="drum B">
+            <img class="myimg" src="/Drum-kit/images/kick.png" alt="">
+        </div>
+        <div id="third" class="drum C">
+            <img class="myimg" src="/Drum-kit/images/snare.png" alt="">
+        </div>
+        <div id="forth" class="drum D">
+            <img class="myimg" src="/Drum-kit/images/tom1.png" alt="">
+        </div>
+        <div id="fifth" class="drum E">
+            <img class="myimg" src="/Drum-kit/images/tom2.png" alt="">
+        </div>
+        <div id="sixth" class="drum F">
+            <img class="myimg" src="/Drum-kit/images/tom3.png" alt="">
+        </div>
+        <div id="seventh" class="drum G">
+            <img class="myimg" src="/Drum-kit/images/tom4.png" alt="">
+        </div>
+    </div>
+    
+    <script src="/Drum-kit/js/drum.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+            $('div').click(function(){
+                // $(this).hide();
+                console.log("you have pressed");
+            });
+
+            $('div').click();
+        </script>
+</body>
+
+</html>

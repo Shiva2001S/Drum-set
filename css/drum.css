@@ -1,0 +1,22 @@
+#main{
+    display: flex;
+    flex-direction: row;
+}
+
+.myimg{
+    width: 80px;
+}
+
+.drum{
+    margin : 10px;
+    /* border: 2px solid yellow; */
+    width: 80px;
+}
+
+p{
+    border: 2px solid red;
+}
+
+.modified{
+    border: 4px solid yellow;
+}
